@@ -62,8 +62,16 @@ nav ul li{
     
 }
 .songlisttext {
-    margin-left: 55px;
-    margin-top: 50px;
+    width: 510px;
+    height: 75px;
+    border: none;
+    border-radius: 25px;
+    background-color: #000000f3;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .track {
     margin-left: 70px;
@@ -87,7 +95,7 @@ nav ul li{
     color: black;
     border-radius: 20px;
     border-style: hidden;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.15);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.18);
     background-color: #1ED760;
 }
 .songItem button{
