@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifylogo.png" alt="Spotify"></li>
+            <li><a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"><button class="login">Login</button></a></li>
+            <li><a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"><button class="signup">Signup</button></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="leftsection">
+            <img src="anirudh.png" class="anirudhbanner">
+            <div class="controls">
+                <input type="range" name="range" value="0" id="myProgress" min="0" max="100">
+            </div>
+            <div class="controlIcons">
+                <div><i class="fa-solid fa-backward-step"></i></div>
+                <div class="playbutton"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+        </div>
+        <div class="songlist">
+            <h1 class="songlisttext">Anirudh Ravichander</h1>
+            <div>
+                <div class="songItem"><span class="songName">1. Badass - Leo</span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="0"></button></div> 
+                <div class="songItem"><span class="songName">2. Naa-Ready - Leo </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="1"></button></div>
+                <div class="songItem"><span class="songName">3. Lokiverse 2.0 - Leo </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="2"></button></div>
+                <div class="songItem"><span class="songName">4. Chaleya - Jawan </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="3"></button></div>
+                <div class="songItem"><span class="songName">5. Hukum - Thalaivar-Alappara </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="4"></button></div>
+                <div class="songItem"><span class="songName">6. Title Song - Vikram </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="5"></button></div>
+                <div class="songItem"><span class="songName">7. Once Upon a Time - Vikram </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="6"></button></div>
+                <div class="songItem"><span class="songName">8. Wasted - Vikram </span><button><img src="circle-play-solid.svg" alt="play" class="playListPlay" id="7"></button></div>
+            </div>
+        </div>
+    </div>
+        
+   
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
